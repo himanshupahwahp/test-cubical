@@ -239,8 +239,8 @@ a:hover { text-decoration: none; }
 }
 
 .social a.facebook { background: url(../img/social-icons/facebook.png); }
-.social a.twitter { background: url(../img/social-icons/twitter.png); }
-.social a.dribbble { background: url(../img/social-icons/dribbble.png); }
+.social a.instagram { background: url(../img/social-icons/instagram.png); }
+.social a.whatsapp { background: url(../img/social-icons/whatsapp.png); }
 .social a.googleplus { background: url(../img/social-icons/googleplus.png); }
 .social a.pinterest { background: url(../img/social-icons/pinterest.png); }
 .social a.flickr { background: url(../img/social-icons/flickr.png); }
@@ -368,7 +368,20 @@ a:hover { text-decoration: none; }
     border-radius: 100px;
 }
 
-.helheros-tittle{
-    color: #226584 !important
+.helheros-sub-tittle{
+    background-color: rgba(255, 0, 0, 0.3)
+}
+
+.helheros-sub-tittle-decsription{
+    background-color: red;
+}
+
+.contact-us{
+    display: flex;
+}
+
+.contact-info{
+    font-weight: bolder;
+    color: black !important;
 }
 

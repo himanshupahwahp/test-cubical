@@ -36,8 +36,8 @@ jQuery(document).ready(function() {
         Tooltips
     */
     $('.social a.facebook').tooltip();
-    $('.social a.twitter').tooltip();
-    $('.social a.dribbble').tooltip();
+    $('.social a.instagram').tooltip();
+    $('.social a.whatsapp').tooltip();
     $('.social a.googleplus').tooltip();
     $('.social a.pinterest').tooltip();
     $('.social a.flickr').tooltip();
