@@ -244,7 +244,15 @@ a:hover { text-decoration: none; }
 .social a.googleplus { background: url(../img/social-icons/googleplus.png); }
 .social a.pinterest { background: url(../img/social-icons/pinterest.png); }
 .social a.flickr { background: url(../img/social-icons/flickr.png); }
+a.whatsapp-contact { 
+    background: url(../img/social-icons/whatsapp.png); 
+    /* display: inline-block; */
+    float: inline-end;
+    width: 48px;
+    height: 48px;
+    margin-top: -5%;
 
+}
 
 /***** Media Queries *****/
 
@@ -378,10 +386,17 @@ a:hover { text-decoration: none; }
 
 .contact-us{
     display: flex;
+    flex-direction: column;
+    align-items: center;
 }
 
 .contact-info{
     font-weight: bolder;
     color: black !important;
+}
+
+.column{
+    text-align: left; /* Ensures text starts from the same left point */
+    width: 100%;
 }
 
